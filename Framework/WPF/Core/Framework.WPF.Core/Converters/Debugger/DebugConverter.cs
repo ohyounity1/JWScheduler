@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Globalization;
 using System.Windows.Data;
 
@@ -12,17 +13,21 @@ namespace Framework.WPF.Core.Converters.Debugger
 		/// <inheritdoc/>
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{
-			if (System.Diagnostics.Debugger.IsAttached)
-				System.Diagnostics.Debugger.Break();
+			Break(value);
 			return value;
 		}
 
 		/// <inheritdoc/>
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
 		{
-			if (System.Diagnostics.Debugger.IsAttached)
-				System.Diagnostics.Debugger.Break();
+			Break(value);
 			return value;
+		}
+
+		[Conditional("DEBUG")]
+		private void Break(object value)
+		{
+			System.Diagnostics.Debugger.Break();
 		}
 	}
 }
