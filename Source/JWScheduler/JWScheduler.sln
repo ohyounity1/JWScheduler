@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWScheduler", "JWScheduler.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Core", "..\..\Framework\Core\Framework.Core\Framework.Core.csproj", "{D0652A12-7531-42E0-9EB8-3BFD5DAB530A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.WPF.Core", "..\..\Framework\WPF\Core\Framework.WPF.Core\Framework.WPF.Core.csproj", "{437B6D88-CB1A-41D2-BF1B-00C13CBB55F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D0652A12-7531-42E0-9EB8-3BFD5DAB530A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0652A12-7531-42E0-9EB8-3BFD5DAB530A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0652A12-7531-42E0-9EB8-3BFD5DAB530A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437B6D88-CB1A-41D2-BF1B-00C13CBB55F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437B6D88-CB1A-41D2-BF1B-00C13CBB55F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437B6D88-CB1A-41D2-BF1B-00C13CBB55F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437B6D88-CB1A-41D2-BF1B-00C13CBB55F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
