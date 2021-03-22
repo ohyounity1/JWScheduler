@@ -14,6 +14,7 @@ salt
 ++ Folder(Framework)      | Framework code 
 +++ Folder(Framework.Core) | Core framework helper code
 +++ Folder(Framework.WPF.Core) | Core framework helper code for WPF
++++ Folder(Framework.Logging.Core) | Core framework helper code for logging
 ++ Folder(Source)         | Source code specific to this application
 +++ Folder(JWScheduler)       | Solution File and Main App.xaml
 ++ Folder(Build)          | Build tools
