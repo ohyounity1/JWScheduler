@@ -1,0 +1,22 @@
+@startuml FolderStructure
+
+!unquoted procedure Folder($name)
+<&folder> $name
+!endprocedure
+salt
+{
+{T
++FolerName                | Description
++ Folder(JWScheduler)     | Main Folder
+++ Folder(Documentation)  | All Documentation and UML diagrams
++++ Folder(PlantUML)      | UML diagram source
+++ Folder(3rdParty)       | All 3rd party projects
+++ Folder(Framework)      | Framework code 
++++ Folder(Framework.Core) | Core framework helper code
++++ Folder(Framework.WPF.Core) | Core framework helper code for WPF
+++ Folder(JWScheduler.Source)         | Source code specific to this application
++++ Folder(JWSceduler.Source.Product) | Main Entry Code
+++ Folder(Build)          | Build tools
+}
+}
+@enduml
