@@ -14,8 +14,8 @@ salt
 ++ Folder(Framework)      | Framework code 
 +++ Folder(Framework.Core) | Core framework helper code
 +++ Folder(Framework.WPF.Core) | Core framework helper code for WPF
-++ Folder(JWScheduler.Source)         | Source code specific to this application
-+++ Folder(JWSceduler.Source.Product) | Main Entry Code
+++ Folder(Source)         | Source code specific to this application
++++ Folder(JWScheduler)       | Solution File and Main App.xaml
 ++ Folder(Build)          | Build tools
 }
 }
