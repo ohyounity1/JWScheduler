@@ -1,38 +1,14 @@
-﻿using System;
-using System.Globalization;
-using System.Windows;
-using System.Windows.Data;
+﻿using System.Windows;
 
 namespace Framework.WPF.Core.Converters
 {
-	public interface IEqualsPolicy<T>
+	/// <summary>
+	/// Implementation of <see cref="OperationValueConverter{SourceType, DestType, OP}"/> that converts from a given enum of type <see cref="TEnum"/>
+	/// with the provided equality operation, and if equal, returns the correct visibility
+	/// This class needs to be concretely defined for each possible enum type
+	/// </summary>
+	/// <typeparam name="TEnum">The enum type to use</typeparam>
+	public abstract class EnumToVisibilityConverter<TEnum> : OperationValueConverter<TEnum, Visibility, EqualityConverterBinaryOpertion<TEnum>>
 	{
-		public bool IsEqual(T left, T right) => Equals(left, right);
-	}
-
-	public abstract class EnumToVisibilityConverter<TEnum, EP> : ValueConverterBase<Visibility>, IValueConverter where EP : IEqualsPolicy<TEnum>, new()
-	{
-		private readonly IEqualsPolicy<TEnum> _ep = new EP();
-
-		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-		{
-			if(value is TEnum sourceValue && parameter is TEnum parameterValue)
-			{
-				if (_ep.IsEqual(sourceValue, parameterValue))
-					return True;
-				return False;
-			}
-			return DependencyProperty.UnsetValue;
-		}
-
-		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-		{
-			if(value is Visibility visibilityValue)
-			{
-				if (visibilityValue == True)
-					return parameter;
-			}
-			return DependencyProperty.UnsetValue;
-		}
 	}
 }
