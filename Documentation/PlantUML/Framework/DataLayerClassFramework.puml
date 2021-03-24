@@ -1,0 +1,26 @@
+@startuml
+
+package Framework.Data.Core {
+    interface ISchronizable<T> 
+    {
+        public T DataSource {get; set;}
+    }
+
+    class Auditable 
+    {
+
+    }
+
+    interface IAuditable
+    {
+        public Audiable AuditInformation {get;set;}
+    }
+
+    class BaseDataModel<S> 
+    {
+
+    }
+
+    
+}
+@enduml

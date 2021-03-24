@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Core", "..\..\Fra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.WPF.Core", "..\..\Framework\WPF\Core\Framework.WPF.Core\Framework.WPF.Core.csproj", "{437B6D88-CB1A-41D2-BF1B-00C13CBB55F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.WPF.MVVMLight", "..\..\Framework\WPF\MVVMLight\Framework.WPF.MVVMLight\Framework.WPF.MVVMLight.csproj", "{CA388A30-B44A-4DED-ACA8-33B49C51C056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.WPF.MVVMLight", "..\..\Framework\WPF\MVVMLight\Framework.WPF.MVVMLight\Framework.WPF.MVVMLight.csproj", "{CA388A30-B44A-4DED-ACA8-33B49C51C056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Generators.DependencyProperty", "..\..\Framework\Generators\DependencyProperty\Framework.Generators.DependencyProperty\Framework.Generators.DependencyProperty.csproj", "{D3650B25-B49D-4F11-A7B6-161064F91307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CA388A30-B44A-4DED-ACA8-33B49C51C056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA388A30-B44A-4DED-ACA8-33B49C51C056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA388A30-B44A-4DED-ACA8-33B49C51C056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3650B25-B49D-4F11-A7B6-161064F91307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3650B25-B49D-4F11-A7B6-161064F91307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3650B25-B49D-4F11-A7B6-161064F91307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3650B25-B49D-4F11-A7B6-161064F91307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

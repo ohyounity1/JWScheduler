@@ -6,4 +6,8 @@
 	 <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Generators\DependencyProperty\Framework.Generators.DependencyProperty\Framework.Generators.DependencyProperty.csproj" />
+  </ItemGroup>
+
 </Project>

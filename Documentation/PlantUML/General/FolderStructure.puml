@@ -15,6 +15,7 @@ salt
 +++ Folder(Framework.Core) | Core framework helper code
 +++ Folder(Framework.WPF.Core) | Core framework helper code for WPF
 +++ Folder(Framework.Logging.Core) | Core framework helper code for logging
++++ Folder(Framework.WPF.MVVMLight) | Helper extensions on the MVVM light framework
 ++ Folder(Source)         | Source code specific to this application
 +++ Folder(JWScheduler)       | Solution File and Main App.xaml
 ++ Folder(Build)          | Build tools
