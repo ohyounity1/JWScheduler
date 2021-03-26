@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.WPF.MVVMLight", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Generators.DependencyProperty", "..\..\Framework\Generators\DependencyProperty\Framework.Generators.DependencyProperty\Framework.Generators.DependencyProperty.csproj", "{D3650B25-B49D-4F11-A7B6-161064F91307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.DataModel.Core", "..\..\Framework\DataModel\Core\Framework.DataModel.Core\Framework.DataModel.Core.csproj", "{FE0EB7FC-DCFA-4297-80BE-6B13C1C6AA55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.DataModel.Core", "..\..\Framework\DataModel\Core\Framework.DataModel.Core\Framework.DataModel.Core.csproj", "{FE0EB7FC-DCFA-4297-80BE-6B13C1C6AA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWScheduler.Core.Logging", "..\Core\Logging\JWScheduler.Core.Logging\JWScheduler.Core.Logging.csproj", "{0A419AB7-FEAF-43A8-AC1D-A5C506CAB0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWScheduler.Logging.log4net", "..\Logging\log4net\JWScheduler.Logging.log4net\JWScheduler.Logging.log4net.csproj", "{7C1A7EFD-445E-4F18-B27F-E807B17D4FEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{FE0EB7FC-DCFA-4297-80BE-6B13C1C6AA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0EB7FC-DCFA-4297-80BE-6B13C1C6AA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE0EB7FC-DCFA-4297-80BE-6B13C1C6AA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A419AB7-FEAF-43A8-AC1D-A5C506CAB0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A419AB7-FEAF-43A8-AC1D-A5C506CAB0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A419AB7-FEAF-43A8-AC1D-A5C506CAB0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A419AB7-FEAF-43A8-AC1D-A5C506CAB0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1A7EFD-445E-4F18-B27F-E807B17D4FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1A7EFD-445E-4F18-B27F-E807B17D4FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1A7EFD-445E-4F18-B27F-E807B17D4FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1A7EFD-445E-4F18-B27F-E807B17D4FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

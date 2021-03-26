@@ -16,4 +16,8 @@
     <Folder Include="Windows\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Logging\log4net\JWScheduler.Logging.log4net\JWScheduler.Logging.log4net.csproj" />
+  </ItemGroup>
+
 </Project>
