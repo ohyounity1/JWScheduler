@@ -10,6 +10,7 @@
         /// </summary>
         public Shell()
         {
+            // Show the main window
             var mainWindow = CommonServiceLocator.ServiceLocator.Current.GetInstance<MainWindow>();
             mainWindow.ShowDialog();
         }

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace JWScheduler.ViewModels
+﻿namespace JWScheduler.ViewModels
 {
+    /// <summary>
+    /// The main window's view model
+    /// </summary>
     public class MainViewModel
     {
     }

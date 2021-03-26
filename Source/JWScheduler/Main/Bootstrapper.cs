@@ -32,7 +32,7 @@ namespace JWScheduler.Main
                 // Register all assemblies that have a module defined
                 builder.RegisterAssemblyModules(thisAssembly);
 
-                foreach (var assembly in GetAssemblyByName(thisAssembly, _assemblies))
+                foreach (var assembly in GetAssemblyByName(_assemblies))
                 {
                     builder.RegisterAssemblyModules(assembly);
                 }
@@ -44,7 +44,7 @@ namespace JWScheduler.Main
             }
         }
 
-        private static IEnumerable<Assembly> GetAssemblyByName(Assembly parentAssembly, IEnumerable<string> names)
+        private static IEnumerable<Assembly> GetAssemblyByName(IEnumerable<string> names)
         {
             foreach(var name in names)
                 yield return Assembly.LoadFrom(name + ".dll");
