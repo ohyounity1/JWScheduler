@@ -8,10 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
+    <PackageReference Include="CommonServiceLocator" Version="2.0.6" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Main\" />
     <Folder Include="Windows\" />
   </ItemGroup>
 
