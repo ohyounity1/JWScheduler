@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Main\" />
+    <Folder Include="Windows\" />
   </ItemGroup>
 
 </Project>
